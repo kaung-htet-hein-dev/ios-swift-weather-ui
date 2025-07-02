@@ -126,9 +126,12 @@ struct BackgroundView: View {
     }
     
     var body: some View {
-        LinearGradient(colors: [topColor, bottomColor],
-                       startPoint: .topLeading,
-                       endPoint: .bottomTrailing)
-        .ignoresSafeArea(.all)
+        ContainerRelativeShape()
+            .fill(isDayTime ? Color.blue.gradient : Color.black.gradient)
+            .ignoresSafeArea()
+//        LinearGradient(colors: [topColor, bottomColor],
+//                       startPoint: .topLeading,
+//                       endPoint: .bottomTrailing)
+//        .ignoresSafeArea(.all)
     }
 }
