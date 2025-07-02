@@ -10,8 +10,8 @@ A simple weather app UI built with SwiftUI.
 ## Preview
 
 <div align="center">
-  <img src="preview/p1.png" alt="Weather UI Preview 1" width="300">
-  <img src="preview/p2.png" alt="Weather UI Preview 2" width="300">
+  <img src="preview/preview-1.png" alt="Weather UI Preview 1" width="300">
+  <img src="preview/preview-2.png" alt="Weather UI Preview 2" width="300">
 </div>
 
 ## Getting Started
